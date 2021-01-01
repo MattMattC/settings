@@ -1,0 +1,156 @@
+{
+    "emmet.includeLanguages": {
+        "tpl": "html",
+        "javascript": "javascriptreact"
+    },
+    "git.autofetch": true,
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": true,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#33ad73",
+        "button.background": "#33ad73",
+        "activityBar.border": "#33ad73",
+        "statusBar.background": "#33ad73",
+        "statusBar.foreground": "#3f3f3f",
+        "editorRuler.foreground": "#33ad7241",
+        "activityBarBadge.background": "#5C6BC0",
+        "activityBar.activeBorder": "#5C6BC0",
+        "list.activeSelectionForeground": "#5C6BC0",
+        "list.inactiveSelectionForeground": "#5C6BC0",
+        "list.highlightForeground": "#5C6BC0",
+        "scrollbarSlider.activeBackground": "#5C6BC050",
+        "editorSuggestWidget.highlightForeground": "#5C6BC0",
+        "textLink.foreground": "#5C6BC0",
+        "progressBar.background": "#5C6BC0",
+        "pickerGroup.foreground": "#5C6BC0",
+        "tab.activeBorder": "#5C6BC0",
+        "notificationLink.foreground": "#5C6BC0",
+        "editorWidget.resizeBorder": "#5C6BC0",
+        "editorWidget.border": "#5C6BC0",
+        "settings.modifiedItemIndicator": "#5C6BC0",
+        "settings.headerForeground": "#5C6BC0",
+        "panelTitle.activeBorder": "#5C6BC0",
+        "breadcrumb.activeSelectionForeground": "#5C6BC0",
+        "menu.selectionForeground": "#5C6BC0",
+        "menubar.selectionForeground": "#5C6BC0",
+        "editor.findMatchBorder": "#5C6BC0",
+        "selection.background": "#5C6BC040",
+        "statusBarItem.remoteBackground": "#5C6BC0"
+    },
+    "yaml.schemas": {
+        "file:///toc.schema.json": "/toc\\.yml/i"
+    },
+    "extensions.autoCheckUpdates": false,
+    "editor.fontFamily": "Operator Mono, Fira Code",
+    "workbench.activityBar.visible": true,
+    "workbench.colorTheme": "Community Material Theme Darker",
+    "terminal.integrated.fontWeightBold": "normal",
+    "editor.lineHeight": 20,
+    "beautify.options": {
+        "end_with_newline": true,
+        "selector-separator-newline": true,
+        "newline-between-rules": true,
+        "max_preserve_newlines": 1,
+        "preserve_newlines": true,
+        "less": {
+            "newline_between_rules": true,
+            "selector-separator-newline": true,
+            "end_with_newline": true,
+            "space_in_empty_paren": true,
+            "preserve_newlines": true,
+            "max_preserve_newlines": 1,
+        },
+    },
+    "todohighlight.isEnable": false,
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.less"
+    ],
+    "todohighlight.exclude": [
+        "**/node_modules/**",
+        "**/dist/**",
+        "**/scripts/**",
+        "**/tests/**",
+        "**/documentation/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/assets/**",
+        "**/data/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map",
+        "**/.gitlab/**",
+        "**/vendor/**"
+    ],
+    "editor.fontWeight": "400", // Regular
+    "editor.detectIndentation": false,
+    "markdown.extension.toc.updateOnSave": false,
+    // "vscode_custom_css.imports": [
+    //     "file:///home/mattmatt/vscode-style.css"
+    // ],
+    "vscode_custom_css.policy": true,
+  
+    "editor.rulers": [
+        80,
+        120
+    ],
+ 
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.statusBar.visible": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[graphql]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontLigatures": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "todo-tree.tree.showScanModeButton": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "window.titleBarStyle": "custom",
+    "workbench.iconTheme": "material-icon-theme",
+    "todo-tree.highlights.enabled": true,
+    "json.format.enable": false,
+    "prettier.packageManager": "yarn",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "dart.debugExternalLibraries": true,
+    "dart.debugSdkLibraries": false,
+    "materialTheme.accent": "Indigo",
+    "browserRefresh.browser": "firefox",
+    "i18n-ally.indent": 4,
+}
